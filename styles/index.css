@@ -1,0 +1,30 @@
+.landing {
+    color: white;
+    text-align: center;
+}
+.landing img {
+    width: 6em;
+    margin-top: 3em;
+}
+
+.landing h2 {
+    letter-spacing: 1px;
+}
+
+.landing li {
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style-type: none;
+    min-height: 2em;
+    font-size: 1.4em;
+    transition-duration: 120ms;
+    
+}
+.landing li:hover {
+    font-size: 1.6em;
+}
+
+.landing a {
+    text-decoration: none;
+    color: white;
+}
