@@ -1,5 +1,5 @@
 .images .top {
-    background-image: url(/images/bike.png);
+    background-image: url(../images/bike.png);
     background-size: cover;
     height: 95vh;
     width: 100vw;
