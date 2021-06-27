@@ -1,0 +1,45 @@
+.contact {
+    color: white;
+}
+.contact h1 {
+    font-style: normal;
+}
+.contact input:not([type=checkbox]),
+.contact .checkbox-container,
+.contact button {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 1.3em;
+    border-radius: 20px;
+    height: 2em;
+    text-indent: 1.5em;
+    background-color: RGB(170, 193, 221);
+    border: 1px solid white;
+}
+.contact input:not([type=checkbox]),
+.contact button {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 1.3em;
+  border-radius: 20px;
+  height: 2em;
+  text-indent: 1.5em;
+  background-color: RGB(170, 193, 221);
+  border: 1px solid white;
+}
+
+.contact input[type=checkbox] {
+    display: inline-block;
+  }
+  
+  .contact input[type=checkbox]:checked {
+    background-color: RGB(170, 193, 221);
+  }
+  
+  .contact button {
+    width: 10%;
+    text-indent: 0;
+    color: white;
+  }
