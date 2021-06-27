@@ -1,0 +1,54 @@
+.positioning header,
+.box {
+  background-color: RGB(222, 255, 44);
+}
+
+.positioning header {
+  position: fixed;
+  height: 3em;
+  width: 100vw;
+  top: 0;
+}
+
+.positioning > .panel {
+  height:60vh;
+  border-bottom: 2em solid RGB(222, 255, 44);
+}
+
+.positioning h1 {
+  padding-top: 1em;
+}
+
+.box {
+  height: 10em;
+  width: 10em;
+}
+
+.two .box {
+  position: relative;
+  top: 5em;
+  left: 10em;
+}
+
+.three {
+  position: relative;
+}
+
+.three .box {
+  position: absolute;
+}
+
+.three .box:first-child {
+  top: 1em;
+  left: 1em;
+}
+
+.three .box:nth-child(2) {
+  bottom: 1em;
+  left: 1em;
+}
+
+.three .box:nth-child(3) {
+  right: 1em;
+  top: 1em;
+}
